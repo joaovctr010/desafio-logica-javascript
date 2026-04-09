@@ -1,6 +1,7 @@
 function rank(vitoria = 0, derrotas = 0){
 
-    saldo = vitoria - derrotas
+    let saldo = vitoria - derrotas
+    let nivel = ""
 
     if(saldo < 0 ){
         return "Valor inválido"
@@ -31,6 +32,6 @@ function rank(vitoria = 0, derrotas = 0){
 }
 
 
-rankeada = rank()
+let rankeada = rank(12, 0)
 
 console.log(rankeada)
